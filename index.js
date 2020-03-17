@@ -15,5 +15,7 @@ bot.on('message', (message) => {
         case "ki koonie?":
             message.reply("khalat dada");
             break;
+
+            // test
     }
 });
