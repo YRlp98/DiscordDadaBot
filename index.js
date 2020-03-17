@@ -1,10 +1,19 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+bot.login('Njg5NTM1MjAwNzQwMjQ1NjIy.XnE6fw.lvTV5y5_dKag1qjELNCUSRhTAyA');
+
 bot.on('message', (message) => {
-    if (message.content == '!hello') {
-        message.reply('bah salam dada!');
+
+    switch (message.content) {
+        case "hello":
+            message.reply("bah salam dada!");
+            break;
+        case "dada":
+            message.reply("bale dada?");
+            break;
+        case "ki koonie?":
+            message.reply("khalat dada");
+            break;
     }
 });
-
-bot.login('Njg5NTM1MjAwNzQwMjQ1NjIy.XnER9Q.CfYGprp-MtZxAsQlLlHURByQG9Q');
