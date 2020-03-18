@@ -1,4 +1,5 @@
 # DiscordDadaBot
 Discord Dada Bot
+Dada discord bot written in JS.
 
-Dada is a discord bot for assigning roles.
+**Notice: This bot won't be updated anymore. check out the new bot [here](https://github.com/YRlp98).**
