@@ -5,7 +5,7 @@ const bot = new Discord.Client();
 const Member_Role = '689209619234422942';
 const Gamer_Role = '689208459463622680';
 
-bot.login('Njg5NTM1MjAwNzQwMjQ1NjIy.XnFHLg.1d3v3_sJH57AfG6tT9xSKQhllwc');
+bot.login(/* Paste your token here */);
 
 bot.on('message', (message) => {
 
